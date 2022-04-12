@@ -1,6 +1,10 @@
-const movingbox = document.getElementById('movingbox');
+const box = document.getElementById('movingbox');
 document.onmousemove = (event) => {
-    movingbox.style.top  = event.clientY - (box.clientHeight/2)+ 'px';
-    movingbox.style.left = event.clientX - (box.clientWidth/2) + 'px'; 
+    box.style.top  = event.clientY - (box.clientHeight/2)+ 'px';
+    box.style.left = event.clientX - (box.clientWidth/2) + 'px'; 
     
+}
+
+function random(number) {
+    return Math.floor(Math.random()* number)
 }
