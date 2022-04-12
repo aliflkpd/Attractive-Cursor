@@ -10,6 +10,6 @@ function random(number) {
 }
 
 document.onclick  = function () { 
-    randomcoloring = "rgb("+ random(444)+","+ random(444)+","+ random(444)+")";
+    randomcoloring = "rgb("+ random(444)+","+ random(150)+","+ random(666)+")";
     box.style.background = randomcoloring
     }
