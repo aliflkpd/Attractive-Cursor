@@ -8,3 +8,8 @@ document.onmousemove = (event) => {
 function random(number) {
     return Math.floor(Math.random()* number)
 }
+
+document.onclick  = function () { 
+    randomcoloring = "rgb("+ random(444)+","+ random(444)+","+ random(444)+")";
+    box.style.background = randomcoloring
+    }
