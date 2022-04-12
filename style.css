@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#movingbox{
+    width: 100px;
+    height: 100px;
+    position:fixed;
+    pointer-events:fill;
+    border: 3px solid #000000;
+    transition: 0.1s;
+
+}
